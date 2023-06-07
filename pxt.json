@@ -1,0 +1,27 @@
+{
+    "name": "speechSynthesisV2",
+    "description": "Simple and easy to use Chinese and English speech synthesis module, let your project speak.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "_locales/zh-cn/speechSynthesisV2-strings.json",
+        "_locales/zh-cn/speechSynthesisV2-jsdoc-strings.json",
+        "README.md",
+        "speechSynthesisV2.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
