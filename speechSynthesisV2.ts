@@ -1,4 +1,13 @@
-
+class SubMess {
+    ischar: number;
+    index: number;
+    length: number;
+    constructor(ischar: number, index: number, length: number) {
+        this.ischar = ischar;
+        this.index = index;
+        this.length = length;
+    }
+}
 
 
 //% weight=100 color=#9999FF icon="\uf0a1" block="Speech Synthesis (DFR0760)"
@@ -59,16 +68,6 @@ namespace speechSynthesisV2 {
     const PAUSE_SYNTHESIS = 0x03;
     const RECOVER_SYNTHESIS = 0x04;
 
-    class SubMess {
-        ischar: number;
-        index: number;
-        length: number;
-        constructor(ischar: number, index: number, length: number) {
-            this.ischar = ischar;
-            this.index = index;
-            this.length = length;
-        }
-    }
 
     let wordLenght = 0;
     let listIndex = 0;
