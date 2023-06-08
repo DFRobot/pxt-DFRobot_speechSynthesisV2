@@ -1,4 +1,17 @@
 
+
+class SubMess {
+    ischar: number;
+    index: number;
+    length: number;
+    constructor(ischar: number, index: number, length: number) {
+        this.ischar = ischar;
+        this.index = index;
+        this.length = length;
+    }
+}
+
+
 //% weight=100 color=#9999FF icon="\uf0a1" block="Speech Synthesis (DFR0760)"
 namespace speechSynthesisV2 {
 
@@ -46,16 +59,6 @@ namespace speechSynthesisV2 {
         PINYIN_DISABLE,
     }
 
-    class SubMess {
-        ischar: number;
-        index: number;
-        length: number;
-        constructor(ischar: number, index: number, length: number) {
-            this.ischar = ischar;
-            this.index = index;
-            this.length = length;
-        }
-    }
 
     const I2C_ADDR = 0x40;  //i2c address
     const INQUIRYSTATUS = 0x21;
