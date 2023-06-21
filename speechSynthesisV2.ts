@@ -163,7 +163,7 @@ namespace speechSynthesisV2 {
             }
             if (mess.length == 0) break;
             // wait();
-            serial.writeLine("listIndex" + listIndex)
+            // serial.writeLine("listIndex" + listIndex)
             listIndex += mess.index;
         }
     }
